@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="40dp"
+    android:padding="10dp"
+
+
+
+   >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/br"
+       android:gravity="center"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center"
+           >
+           <LinearLayout
+               android:layout_width="300dp"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Tiêu đề: "
+                       android:textSize="25sp"
+                       android:textStyle="bold"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/txttieude"
+                       android:textSize="26sp"
+                       android:textColor="#E91E63"
+                       android:layout_margin="5dp"
+                       />
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Nội dung: "
+                       android:textSize="25sp"
+                       android:textStyle="bold"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/txtnoidung"
+                       android:textSize="26sp"
+                       android:textColor="#E91E63"
+                       android:layout_margin="5dp"
+                       />
+
+
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Ngày dau: "
+                       android:textSize="25sp"
+                       android:textStyle="bold"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/txtngaydau"
+                       android:textSize="26sp"
+                       android:textColor="#E91E63"
+                       android:layout_margin="5dp"
+                       />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Ngay cuoi: "
+                       android:textSize="25sp"
+                       android:textStyle="bold"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/txtngaycuoi"
+                       android:textSize="26sp"
+                       android:textColor="#E91E63"
+                       android:layout_margin="5dp"
+                       />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                      />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/txttrangthai" />
+
+               </LinearLayout>
+
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               android:orientation="vertical">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+
+                   android:orientation="vertical">
+                   <ImageButton
+                       android:id="@+id/btnupdate"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/edit"
+
+                       />
+                   <ImageButton
+                       android:id="@+id/btndelete"
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/delete"
+                       />
+               </LinearLayout>
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

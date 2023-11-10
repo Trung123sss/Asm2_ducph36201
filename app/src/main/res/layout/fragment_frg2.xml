@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GIỚI THIỆU"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ tên:  Đinh Trần Đức Trung"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="175dp"
+        android:text="ID:PH36621"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngành học:Lập trình Mobile"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class:AND102_MD18308"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        />
+</FrameLayout>
